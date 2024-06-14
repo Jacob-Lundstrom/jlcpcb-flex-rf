@@ -1,4 +1,5 @@
-JLCPCB Flex verification
+JLCPCB Flexible PCB RF verification
+========================
 
 This experiment was created to suppliment another one of my projects, to verify and ensure that JLCPCB's Flexible PCBs would be sufficient for rudimentary RF boards.
 Looking through JLCPCB's stackups, all flexible PCBs have identical substrate thicknesses, and the thicker boards merely change the copper wight and accompanying adhesive/coverlay. 
