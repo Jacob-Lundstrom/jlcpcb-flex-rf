@@ -1,0 +1,4462 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5587e22e-6bb4-40e8-b0f9-77c50aba05a4")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Conn_Coaxial_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial_Small"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_Small_1_1"
+				(arc
+					(start -1.1916 -0.6311)
+					(mid 0.327 -1.3081)
+					(end 1.3484 0.0039)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.3484 -0.0039)
+					(mid 0.327 1.3081)
+					(end -1.1916 0.6311)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:Antenna_Chip"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AE"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Antenna_Chip"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at -2.54 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -2.54 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ceramic chip antenna with pin for PCB trace"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "antenna"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Antenna_Chip_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.635) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 6.985) (xy 2.54 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 6.985) (xy 2.54 1.905) (xy 1.27 6.985)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 1.27) (xy 0.635 1.27) (xy 0.635 -1.27) (xy -0.635 -1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Antenna_Chip_1_1"
+				(pin input line
+					(at -2.54 -2.54 90)
+					(length 2.54)
+					(name "FEED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 90)
+					(length 2.54)
+					(name "PCB_Trace"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 129.54 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00bfff87-b2ef-4b25-af0d-c047e8a700a2")
+	)
+	(junction
+		(at 62.23 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20f14bfd-4b55-4ecc-9cfe-7b07edc13d95")
+	)
+	(junction
+		(at 205.74 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4740fb07-84f1-443c-b3e2-01c80936b4ba")
+	)
+	(junction
+		(at 201.93 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e43bd87-39d4-4712-b671-cfbc1fb3633e")
+	)
+	(junction
+		(at 135.89 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5769f7c1-7a05-4880-aa53-42d17a1bec81")
+	)
+	(junction
+		(at 64.77 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94aeba9d-4765-4f8f-8e71-028a6c751299")
+	)
+	(junction
+		(at 273.05 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d2ee131-cbe3-4052-8e96-7132ea4c4951")
+	)
+	(junction
+		(at 199.39 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b950119d-7600-40b5-9075-00b15da329e9")
+	)
+	(junction
+		(at 68.58 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "db291484-d587-4228-b700-82763bc8aced")
+	)
+	(junction
+		(at 269.24 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec65859a-f9fa-40ad-a291-995b5d14f725")
+	)
+	(junction
+		(at 132.08 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f261cbb0-9f9e-4948-bb3c-9e6341348a83")
+	)
+	(junction
+		(at 266.7 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f527fbad-1060-4251-90fb-574d2f4f1182")
+	)
+	(no_connect
+		(at 264.16 76.2)
+		(uuid "6664eb03-bc55-42f7-bb2b-f95ad4a6f383")
+	)
+	(no_connect
+		(at 59.69 76.2)
+		(uuid "9ad867c7-879c-4cd7-90b6-b6576cb30d1e")
+	)
+	(no_connect
+		(at 127 76.2)
+		(uuid "a3f6a8b3-c2b6-4cd9-aa52-11914ff5d5c4")
+	)
+	(no_connect
+		(at 196.85 76.2)
+		(uuid "f229b7d0-7237-42f6-8e8f-9131974536cc")
+	)
+	(wire
+		(pts
+			(xy 62.23 50.8) (xy 68.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0019e390-88b7-46bc-a5eb-39b197c1f4cc")
+	)
+	(polyline
+		(pts
+			(xy 88.9 78.74) (xy 130.81 78.74)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "00dc0869-51c4-49ee-b413-f6ee12ac6cca")
+	)
+	(polyline
+		(pts
+			(xy 66.04 77.47) (xy 66.04 81.28)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "01256f45-b19b-4114-b7ac-3650ba790a4b")
+	)
+	(wire
+		(pts
+			(xy 135.89 50.8) (xy 135.89 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "026fb389-63b4-4292-a948-d378de88d3c4")
+	)
+	(wire
+		(pts
+			(xy 68.58 50.8) (xy 68.58 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03252f7d-7d65-4151-b0ef-320cdf17d3a7")
+	)
+	(wire
+		(pts
+			(xy 129.54 57.15) (xy 135.89 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03cc1a82-423f-4cfa-80da-591a8e2e3568")
+	)
+	(polyline
+		(pts
+			(xy 158.75 49.53) (xy 158.75 52.07)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0f701a6d-1b6c-4c59-b86d-b2c2a9df1cfa")
+	)
+	(wire
+		(pts
+			(xy 199.39 50.8) (xy 205.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe792b3-b1fa-4f11-9dfb-49cf1186ffd8")
+	)
+	(polyline
+		(pts
+			(xy 270.51 81.28) (xy 226.06 81.28)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "170e39aa-9258-412f-9cea-373db4767293")
+	)
+	(polyline
+		(pts
+			(xy 66.04 81.28) (xy 21.59 81.28)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "18864d5c-5ba3-4a0a-991c-da35b5205dec")
+	)
+	(polyline
+		(pts
+			(xy 158.75 52.07) (xy 204.47 52.07)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1a59f0fe-de63-416f-b0de-2cbd7027bd1c")
+	)
+	(polyline
+		(pts
+			(xy 21.59 52.07) (xy 67.31 52.07)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "1bfd9740-0939-4de7-8f68-2339895e078d")
+	)
+	(wire
+		(pts
+			(xy 132.08 80.01) (xy 135.89 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21105222-8597-4b00-bff0-8e7fe0087892")
+	)
+	(polyline
+		(pts
+			(xy 226.06 49.53) (xy 226.06 52.07)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "21a3801d-1f54-403a-b506-0fc0c1e7c809")
+	)
+	(wire
+		(pts
+			(xy 87.63 80.01) (xy 132.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "250fb6bd-b889-4de6-8af8-7454e4f238fe")
+	)
+	(wire
+		(pts
+			(xy 62.23 52.07) (xy 62.23 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26d0b611-7e65-41a0-ae96-a747a61727e1")
+	)
+	(polyline
+		(pts
+			(xy 133.35 77.47) (xy 133.35 81.28)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "34ae13d0-ccf6-4393-9f54-8c17ef43de6e")
+	)
+	(polyline
+		(pts
+			(xy 203.2 77.47) (xy 203.2 81.28)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "38cbd2f2-3140-4e79-9bea-8418c890810a")
+	)
+	(polyline
+		(pts
+			(xy 158.75 49.53) (xy 204.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "3d022b4f-e80d-4cc0-9902-58e19efb323b")
+	)
+	(wire
+		(pts
+			(xy 64.77 80.01) (xy 68.58 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f27bcaf-a2fb-492b-8bdd-877aa3ce702a")
+	)
+	(wire
+		(pts
+			(xy 68.58 80.01) (xy 68.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c63d33-a1df-4a83-9f15-202307224021")
+	)
+	(polyline
+		(pts
+			(xy 271.78 52.07) (xy 271.78 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "47dc44cd-3cc2-472c-bd9c-54f36947b3e1")
+	)
+	(polyline
+		(pts
+			(xy 203.2 81.28) (xy 158.75 81.28)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "49f4b11d-ff3a-4d21-b322-e30bfb426a97")
+	)
+	(polyline
+		(pts
+			(xy 200.66 78.74) (xy 200.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "4ce5fc6e-acc5-4319-9150-9da643ee5d7a")
+	)
+	(polyline
+		(pts
+			(xy 204.47 52.07) (xy 204.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "4f298646-16b3-4f14-af55-8bf64afa17fb")
+	)
+	(wire
+		(pts
+			(xy 20.32 50.8) (xy 20.32 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c9348d-af64-4a65-9ce2-a99978b163f4")
+	)
+	(wire
+		(pts
+			(xy 20.32 50.8) (xy 62.23 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e8b6b7-eab4-43e8-b7db-0de267787ea2")
+	)
+	(wire
+		(pts
+			(xy 87.63 50.8) (xy 129.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5492c4b0-db70-424d-924c-902f310e28fd")
+	)
+	(polyline
+		(pts
+			(xy 200.66 77.47) (xy 203.2 77.47)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5526c80f-4de5-4749-9a6f-b526a82f24ec")
+	)
+	(polyline
+		(pts
+			(xy 134.62 52.07) (xy 134.62 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "55ac2d8b-931c-4afc-bbf3-aa18e94e5558")
+	)
+	(wire
+		(pts
+			(xy 224.79 80.01) (xy 224.79 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7ec6a9-567a-4ded-856e-48f730d00ea0")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 132.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7399eea8-ca61-464c-a3f6-fb5f674e3499")
+	)
+	(wire
+		(pts
+			(xy 205.74 50.8) (xy 205.74 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "748d06bf-793b-447c-8d06-569bec2c905b")
+	)
+	(wire
+		(pts
+			(xy 266.7 50.8) (xy 273.05 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74bae1b1-c6ba-42cc-b5de-dba31bce26ea")
+	)
+	(wire
+		(pts
+			(xy 199.39 52.07) (xy 199.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7622e0f9-7f5b-41d4-bd62-f433ea63e23e")
+	)
+	(polyline
+		(pts
+			(xy 130.81 78.74) (xy 130.81 77.47)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7c187af3-2910-4726-82c7-73c9d82930c2")
+	)
+	(wire
+		(pts
+			(xy 273.05 80.01) (xy 273.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ca8e9bc-3a15-414e-a37e-bd8996aa5a66")
+	)
+	(polyline
+		(pts
+			(xy 63.5 77.47) (xy 66.04 77.47)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7fb8ba93-d69a-43ee-bc48-85217f621f4e")
+	)
+	(wire
+		(pts
+			(xy 205.74 80.01) (xy 205.74 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8134b847-00f2-4907-a8f7-86d2f1f73f23")
+	)
+	(wire
+		(pts
+			(xy 201.93 80.01) (xy 205.74 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "844c21fb-3f99-4efd-a6a6-2a2ee67b75ea")
+	)
+	(polyline
+		(pts
+			(xy 88.9 52.07) (xy 134.62 52.07)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8528abdd-ffd7-4734-bbf0-b88aa4d64f35")
+	)
+	(polyline
+		(pts
+			(xy 21.59 78.74) (xy 63.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "86df69d3-652b-496d-b950-07e33fe8b6b8")
+	)
+	(wire
+		(pts
+			(xy 135.89 80.01) (xy 135.89 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e2692a4-3579-47c1-b447-06695cfa78cf")
+	)
+	(polyline
+		(pts
+			(xy 267.97 77.47) (xy 270.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "93b8597d-57c8-43e6-9d7e-141de4c0696c")
+	)
+	(polyline
+		(pts
+			(xy 226.06 78.74) (xy 267.97 78.74)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "95957ad7-5d10-4235-bfcb-874ff214c610")
+	)
+	(wire
+		(pts
+			(xy 129.54 50.8) (xy 135.89 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9853392e-cd97-4cd0-9973-ee1cb4a9e5dc")
+	)
+	(wire
+		(pts
+			(xy 87.63 50.8) (xy 87.63 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a15e4a33-ea7b-4b67-ba79-20052d2f2a03")
+	)
+	(wire
+		(pts
+			(xy 224.79 80.01) (xy 269.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a66bc43b-43b7-4330-95a7-3bea5e4103ff")
+	)
+	(wire
+		(pts
+			(xy 266.7 57.15) (xy 273.05 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a797a743-188a-496d-ae02-04fbd9cb9bf5")
+	)
+	(polyline
+		(pts
+			(xy 88.9 81.28) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "a8085c4c-59c1-4344-9770-6523df94b1dd")
+	)
+	(wire
+		(pts
+			(xy 269.24 76.2) (xy 269.24 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1364ef-5379-47f0-94b0-ec6cbcf617c5")
+	)
+	(polyline
+		(pts
+			(xy 226.06 52.07) (xy 271.78 52.07)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b03daef8-70a4-47b8-8849-a88d88e2ce5d")
+	)
+	(wire
+		(pts
+			(xy 157.48 50.8) (xy 157.48 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1203d46-fc53-4269-8032-b7f14e45ec37")
+	)
+	(polyline
+		(pts
+			(xy 158.75 78.74) (xy 200.66 78.74)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b15355be-7d02-4034-bc91-d4029442a662")
+	)
+	(polyline
+		(pts
+			(xy 270.51 77.47) (xy 270.51 81.28)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b5eeb2bd-fa8d-45da-ad40-75669fe91a48")
+	)
+	(wire
+		(pts
+			(xy 157.48 50.8) (xy 199.39 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2455db-31e6-4cfc-ade3-7f8a3e14d4d6")
+	)
+	(wire
+		(pts
+			(xy 266.7 52.07) (xy 266.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba29c997-5d33-495f-8d3d-33c5dd217580")
+	)
+	(wire
+		(pts
+			(xy 269.24 80.01) (xy 273.05 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb1d287e-1ceb-44da-bac5-036782a81a69")
+	)
+	(wire
+		(pts
+			(xy 224.79 50.8) (xy 224.79 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0e5c839-729a-46ab-9113-ca5b7ce980a4")
+	)
+	(polyline
+		(pts
+			(xy 130.81 77.47) (xy 133.35 77.47)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c533b42a-cbbe-4bb3-bd6a-78b02515ed40")
+	)
+	(polyline
+		(pts
+			(xy 21.59 49.53) (xy 67.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "caee57d6-bd67-4da9-9d11-e02e9577699b")
+	)
+	(wire
+		(pts
+			(xy 199.39 57.15) (xy 205.74 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd82de9a-5c1b-4a27-9a23-965802dc9c2f")
+	)
+	(wire
+		(pts
+			(xy 87.63 80.01) (xy 87.63 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea97448-6617-491d-8f06-5cb7f8be0fe0")
+	)
+	(polyline
+		(pts
+			(xy 88.9 49.53) (xy 88.9 52.07)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "cfcef989-4545-4eb2-b7b9-059a1f88e947")
+	)
+	(polyline
+		(pts
+			(xy 21.59 49.53) (xy 21.59 52.07)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d17bcfa7-356d-4bed-8bde-f3fe7e1f34b0")
+	)
+	(polyline
+		(pts
+			(xy 21.59 81.28) (xy 21.59 78.74)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d4ca4656-5daa-4716-928b-1d2f63feace6")
+	)
+	(polyline
+		(pts
+			(xy 226.06 81.28) (xy 226.06 78.74)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "d961b4ea-01f7-4125-8ca5-664c278f9d7e")
+	)
+	(wire
+		(pts
+			(xy 129.54 52.07) (xy 129.54 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d967358d-76e5-4f52-a35d-f11fe827c10c")
+	)
+	(polyline
+		(pts
+			(xy 63.5 78.74) (xy 63.5 77.47)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "da16dcb4-fc57-42c3-babd-58fc5dca41a5")
+	)
+	(wire
+		(pts
+			(xy 224.79 50.8) (xy 266.7 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db76bdf4-d3e0-4ee3-a9ee-ff6d20e3a2fa")
+	)
+	(wire
+		(pts
+			(xy 273.05 50.8) (xy 273.05 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1ece08-1e80-42a5-a4cf-46d7de75d4db")
+	)
+	(polyline
+		(pts
+			(xy 267.97 78.74) (xy 267.97 77.47)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "debb4ab2-4032-433f-b227-def9a95ac6cf")
+	)
+	(wire
+		(pts
+			(xy 157.48 80.01) (xy 157.48 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b6ab94-b2b7-4014-8ae4-971b7f422b79")
+	)
+	(polyline
+		(pts
+			(xy 133.35 81.28) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e74f7d49-12df-4014-b582-511354efed29")
+	)
+	(wire
+		(pts
+			(xy 62.23 57.15) (xy 68.58 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe822a0-57fb-41b6-81b1-244176eb222a")
+	)
+	(wire
+		(pts
+			(xy 20.32 80.01) (xy 20.32 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec8dc109-da25-4bd5-81f3-d865a9805fef")
+	)
+	(wire
+		(pts
+			(xy 20.32 80.01) (xy 64.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee656ddd-8fca-49a8-a646-f530a303e7eb")
+	)
+	(wire
+		(pts
+			(xy 201.93 76.2) (xy 201.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30f851c-276b-46d8-bd14-485370fdbba7")
+	)
+	(polyline
+		(pts
+			(xy 158.75 81.28) (xy 158.75 78.74)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f3c89f6d-4df4-46c6-9116-9ae78bebef96")
+	)
+	(polyline
+		(pts
+			(xy 88.9 49.53) (xy 134.62 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f458ba18-2cad-4a54-804b-ed9ef4c56330")
+	)
+	(polyline
+		(pts
+			(xy 226.06 49.53) (xy 271.78 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f567a4ae-0f78-43ad-8339-2e6d6768e511")
+	)
+	(wire
+		(pts
+			(xy 157.48 80.01) (xy 201.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f687926c-5c04-4421-83bd-a88953a630d1")
+	)
+	(polyline
+		(pts
+			(xy 67.31 52.07) (xy 67.31 49.53)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f8c49baa-36dd-4875-a009-ebdd80df9c54")
+	)
+	(wire
+		(pts
+			(xy 64.77 76.2) (xy 64.77 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb6a4af9-7428-4822-abc2-4541dc39f416")
+	)
+	(text "LOAD 4"
+		(exclude_from_sim no)
+		(at 249.428 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0593212a-86c1-483c-adeb-3ce45ceb4341")
+	)
+	(text "ANT 4"
+		(exclude_from_sim no)
+		(at 249.428 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09ef2d35-d6d6-4ed2-8084-773e5b0d084b")
+	)
+	(text "LOAD 1"
+		(exclude_from_sim no)
+		(at 44.958 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18350a48-7de1-4f0b-af5e-1872dd46e77f")
+	)
+	(text "CONTROLLED IMPEDANCE - 2 MILLS"
+		(exclude_from_sim no)
+		(at 109.982 54.102 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "1941c1c8-6ee7-4efe-978f-94756507d986")
+	)
+	(text "ANT 1"
+		(exclude_from_sim no)
+		(at 44.958 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "198067d5-6a5b-4fcd-a724-ad6a65d2fdc0")
+	)
+	(text "3 MILL TRACES\nNO SOLDERMASK/COVERLAY"
+		(exclude_from_sim no)
+		(at 250.19 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1c062e7e-5425-4e8d-8919-12ffdde10d1e")
+	)
+	(text "CONTROLLED IMPEDANCE - 2 MILLS"
+		(exclude_from_sim no)
+		(at 114.554 83.82 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "21d94f4f-4d34-4b19-b378-665612e3f5fd")
+	)
+	(text "3 MILL TRACES\nWITH SOLDERMASK/COVERLAY"
+		(exclude_from_sim no)
+		(at 183.134 18.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "248c1f27-3f7a-4168-8b70-e02dcf09d63f")
+	)
+	(text "CONTROLLED IMPEDANCE - 3 MILLS"
+		(exclude_from_sim no)
+		(at 184.404 83.82 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "36c9af8b-d0fa-40e2-9497-07f58261fc74")
+	)
+	(text "2 MILL TRACES\nNO SOLDERMASK/COVERLAY"
+		(exclude_from_sim no)
+		(at 110.998 18.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "69012439-f99f-4aa7-9426-768d13ec10c2")
+	)
+	(text "CONTROLLED IMPEDANCE - 3 MILLS"
+		(exclude_from_sim no)
+		(at 251.714 83.82 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "6ff0ca4b-da52-4473-a57b-27f1b6443d08")
+	)
+	(text "ANT 2"
+		(exclude_from_sim no)
+		(at 112.268 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "87483e69-e4b5-45bc-a0f5-e5d893861da4")
+	)
+	(text "CONTROLLED IMPEDANCE - 3 MILLS"
+		(exclude_from_sim no)
+		(at 247.142 54.102 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "8fa81736-38f3-496e-8146-28e52bc05520")
+	)
+	(text "CONTROLLED IMPEDANCE - 2 MILLS"
+		(exclude_from_sim no)
+		(at 47.244 83.82 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "9af325b7-262e-431e-ad54-3a8e5ce90a27")
+	)
+	(text "ANT 3"
+		(exclude_from_sim no)
+		(at 182.118 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6fd7d67-1458-462e-bf3d-d786a009253f")
+	)
+	(text "CONTROLLED IMPEDANCE - 2 MILLS"
+		(exclude_from_sim no)
+		(at 42.672 54.102 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "c8faaab6-c9b6-4500-9043-0b20e81a10c0")
+	)
+	(text "2 MILL TRACES\nWITH SOLDERMASK/COVERLAY"
+		(exclude_from_sim no)
+		(at 43.942 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d7a8b14e-adab-4ffc-bb1e-1fd706bc6513")
+	)
+	(text "CONTROLLED IMPEDANCE - 3 MILLS"
+		(exclude_from_sim no)
+		(at 179.832 54.102 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "e93828c1-1a0c-422e-a712-f42f63b7a0af")
+	)
+	(text "LOAD 3"
+		(exclude_from_sim no)
+		(at 182.118 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f790d74e-ab7c-44b4-b4e4-52d188fb9193")
+	)
+	(text "LOAD 2"
+		(exclude_from_sim no)
+		(at 112.268 45.974 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd110b4b-8e29-47e2-ad14-99957bc54c81")
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 62.23 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0023c278-1f17-4477-beb6-69049ca038ba")
+		(property "Reference" "R3"
+			(at 59.69 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50R"
+			(at 59.69 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb8edb9f-8d7f-424f-84e5-5bf23aed0be2")
+		)
+		(pin "1"
+			(uuid "9406d63e-2ca9-4e03-ae23-577e0272efe1")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna_Chip")
+		(at 266.7 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "123d970c-76c6-4f70-9787-ff86cb6694e0")
+		(property "Reference" "AE4"
+			(at 262.89 72.3901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Antenna_Chip"
+			(at 262.89 69.8501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RF_Antenna:Johanson_2450AT18x100"
+			(at 264.16 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic chip antenna with pin for PCB trace"
+			(at 266.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a29d30df-b13f-4147-adec-c8eead9e948b")
+		)
+		(pin "2"
+			(uuid "3b0263c9-7fcb-4439-8d73-1bcf1a419124")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "AE4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 224.79 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2372e3e1-e7a9-414f-98c0-6c60df9b1ceb")
+		(property "Reference" "J15"
+			(at 227.33 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 227.33 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 224.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 224.79 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea8ba103-e24a-401d-b031-8c92e604f8e3")
+		)
+		(pin "2"
+			(uuid "ef638fc5-5ca3-4296-89ab-12c61cfa7fe0")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23834fb2-a313-4883-8d1f-03d71f59d9de")
+		(property "Reference" "#PWR014"
+			(at 273.05 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c076dae8-cdca-4524-8f1c-4f9deb99ec03")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c3c499d-5249-405f-865b-11a2f65eb8bd")
+		(property "Reference" "#PWR02"
+			(at 157.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1deb48e5-0f31-4391-b589-dbf837bbfb98")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ea0f776-83b1-4eff-ab98-cc7129325212")
+		(property "Reference" "#PWR08"
+			(at 68.58 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0b99b0bd-479a-410d-9dba-9e629cc5cde3")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 57.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f2c3109-46a6-49a0-8001-8fba53adcafb")
+		(property "Reference" "#PWR03"
+			(at 205.74 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6fd8ee4d-dc03-467c-ac1b-03f65dfa5d89")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 20.32 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5158a820-29ba-4e65-a734-299b7053035c")
+		(property "Reference" "J3"
+			(at 22.86 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 22.86 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 20.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 20.32 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee20b1f9-b5ba-45e3-a216-ed58dc02bcf4")
+		)
+		(pin "2"
+			(uuid "0d377943-47ec-4bb4-92a2-47a6229e7458")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 57.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54a67c16-298c-43e5-bdbf-18701e4886ec")
+		(property "Reference" "#PWR013"
+			(at 273.05 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6c75898-5d05-4694-8309-3a1d12215769")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 135.89 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55383389-02a8-4edd-8583-cb67e14c69b5")
+		(property "Reference" "J8"
+			(at 138.43 82.0303 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 138.43 84.5703 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 135.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4fe20869-f91c-4d14-99a6-8c1acba889bf")
+		)
+		(pin "2"
+			(uuid "7c6ce9c8-fe16-4b1a-8e84-b10be5bb6560")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 20.32 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bc004e1-1d94-48be-b86f-facf88393294")
+		(property "Reference" "J1"
+			(at 22.86 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 22.86 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 20.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 20.32 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b01c162-c750-43dc-be94-18724fa690fe")
+		)
+		(pin "2"
+			(uuid "3a2a3478-fc93-497d-9baa-bf65443f02ab")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 266.7 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60dafc1a-23fd-4605-9bfd-838ae6c5477a")
+		(property "Reference" "R2"
+			(at 264.16 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50R"
+			(at 264.16 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 266.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 266.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "734b3bb7-ace4-4fd5-9f01-8f09b829ee25")
+		)
+		(pin "1"
+			(uuid "274951d9-5bd8-4a3a-8d52-a2df423c1a3b")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 87.63 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b1e48bd-bdec-467d-975c-5a9685525716")
+		(property "Reference" "J7"
+			(at 90.17 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 90.17 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56a696d4-944d-4906-a06d-bf95ca01a84d")
+		)
+		(pin "2"
+			(uuid "14218fd7-61d2-4c1f-bb99-d3baa137b853")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 205.74 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ee3a76a-ef6d-4589-a044-57ebe43bd899")
+		(property "Reference" "J12"
+			(at 208.28 82.0303 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 208.28 84.5703 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 205.74 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51b0793e-c928-4eb6-a93e-57152d451ba0")
+		)
+		(pin "2"
+			(uuid "4a7044c7-8d69-41cd-876a-9646b7e461a0")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f4c6073-b30e-4e6f-8ade-449b02dee283")
+		(property "Reference" "#PWR09"
+			(at 224.79 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "edd0137b-3eb8-4aec-b2e1-6673b741b461")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73fc4b90-513e-4ca1-8815-b98a3af2a9a4")
+		(property "Reference" "#PWR012"
+			(at 87.63 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dad6e763-1023-4cec-8550-8506a9685c7b")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 224.79 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d23050e-4dec-456d-a6c5-5f2043229e87")
+		(property "Reference" "J13"
+			(at 227.33 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 227.33 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 224.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4f33a28-6934-49ed-9286-38443d478a2d")
+		)
+		(pin "2"
+			(uuid "6efbbd2f-24b0-4394-89eb-025890204d05")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 205.74 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8852777c-7838-4e85-8c02-1a7c51776499")
+		(property "Reference" "J10"
+			(at 208.28 52.8203 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 208.28 55.3603 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 205.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 205.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "de4a68ef-b195-4973-a198-33ca5323519c")
+		)
+		(pin "2"
+			(uuid "92673c07-8521-4db4-a12f-bdf6bd02c755")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 87.63 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8dc2d7bc-26e9-4ce1-848d-a6a1cddfb956")
+		(property "Reference" "J5"
+			(at 90.17 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 90.17 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 87.63 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 87.63 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ee950b0-ffd6-4340-a12f-eda738cc6e6d")
+		)
+		(pin "2"
+			(uuid "13497613-e1e6-4bd3-b27f-edf7625a86d3")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 68.58 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98d5b1ad-29fe-4ba3-811a-eba73a003d5c")
+		(property "Reference" "J4"
+			(at 71.12 82.0303 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 71.12 84.5703 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 68.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 68.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6d1b5d8-515e-49d2-b9b6-fca9f0068786")
+		)
+		(pin "2"
+			(uuid "06c29ecf-f75d-4fc1-b227-f2faf114d193")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 129.54 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c049ea5-7d4e-4d36-9598-0b76de0f14a2")
+		(property "Reference" "R6"
+			(at 127 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50R"
+			(at 127 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 129.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 129.54 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "baa84d32-acb7-4551-9ff7-34ad2adc03d5")
+		)
+		(pin "1"
+			(uuid "22b27fc9-3ad1-4ae5-a4e9-5716dfce7fb6")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 68.58 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a0719c4a-b0b8-4964-8060-58a89a9f561c")
+		(property "Reference" "J2"
+			(at 71.12 52.8203 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 71.12 55.3603 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 68.58 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ce44f28-2379-4e9c-a3ce-f6583754c504")
+		)
+		(pin "2"
+			(uuid "17139b5d-2171-4ec7-8d9b-8aed8f93cbbe")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 199.39 54.61 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a85600c2-e26d-4301-a5d6-6e015b56dddb")
+		(property "Reference" "R1"
+			(at 196.85 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50R"
+			(at 196.85 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 199.39 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 199.39 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "782bab5b-8534-4b8b-84c0-354764d929a0")
+		)
+		(pin "1"
+			(uuid "fe4372a7-78b2-4b3e-bddf-c92ab0849e3a")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna_Chip")
+		(at 199.39 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adc6ab5a-aa9c-4237-b41b-9150373cc723")
+		(property "Reference" "AE3"
+			(at 195.58 72.3901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Antenna_Chip"
+			(at 195.58 69.8501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RF_Antenna:Johanson_2450AT18x100"
+			(at 196.85 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic chip antenna with pin for PCB trace"
+			(at 199.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5b98808-4e55-43af-ba96-f90490d1d768")
+		)
+		(pin "2"
+			(uuid "49778962-94bc-441f-81df-7f5704f45655")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "AE3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aee57add-c18e-457c-ad38-2ab1b61716de")
+		(property "Reference" "#PWR016"
+			(at 135.89 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60c702bd-ce9c-41a9-920d-7f6e13d38a43")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 20.32 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0f79136-80d6-4fb9-b0ac-3c9b88acd31c")
+		(property "Reference" "#PWR07"
+			(at 20.32 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79c74c09-2358-48e7-80e5-be59672f0e0d")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 135.89 57.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b90cf306-f04e-407a-80d7-9b9f4d75fa11")
+		(property "Reference" "#PWR015"
+			(at 135.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b468d16-e47a-418e-a082-0a3b19c6e470")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna_Chip")
+		(at 129.54 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c09121d6-db00-4a5a-8a36-0d61ac01ac22")
+		(property "Reference" "AE2"
+			(at 125.73 72.3901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Antenna_Chip"
+			(at 125.73 69.8501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RF_Antenna:Johanson_2450AT18x100"
+			(at 127 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic chip antenna with pin for PCB trace"
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bf0bbbe1-7de7-4c64-b394-2eeb1063db1d")
+		)
+		(pin "2"
+			(uuid "0ac320fe-3a3a-4e5e-800b-e93656e7dd2e")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "AE2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 135.89 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3359bd9-1fe2-4e12-b7c5-bc15ae817d0e")
+		(property "Reference" "J6"
+			(at 138.43 52.8203 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 138.43 55.3603 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 135.89 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a6fcb292-cf11-4f4d-b451-e71aaddd29be")
+		)
+		(pin "2"
+			(uuid "f08a4768-5fde-4f7e-9dd1-2802844ea3e9")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 68.58 57.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3fe15d4-eb75-41e6-b7ce-8d87571cddb2")
+		(property "Reference" "#PWR06"
+			(at 68.58 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0e4b60c-5bd2-45b8-b6d7-b77cca63c228")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 157.48 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cfd290d9-687d-4922-bf4f-008d039541f1")
+		(property "Reference" "#PWR01"
+			(at 157.48 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 157.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7817d279-f5f9-4567-850b-8cc319e5a608")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 20.32 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7750fe6-8176-4c8b-b49e-e6041f00c96b")
+		(property "Reference" "#PWR05"
+			(at 20.32 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "078628cc-60d6-4c5f-acae-1d029791707a")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd567b92-041c-470b-816d-01f1b0ecfb8e")
+		(property "Reference" "#PWR011"
+			(at 87.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d2ad50a3-d957-4e7b-9775-a1c4c4730e1c")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 157.48 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e190bff1-9f45-4563-8881-c23377929f4f")
+		(property "Reference" "J9"
+			(at 160.02 53.594 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 160.02 56.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 157.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 157.48 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d833fa3-4d1b-4d27-b66c-faa0a62e46ce")
+		)
+		(pin "2"
+			(uuid "96b926e9-7ae0-435a-89d7-e6d0132181cc")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna_Chip")
+		(at 62.23 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e242d004-620b-4400-bb27-c7b11507abe1")
+		(property "Reference" "AE1"
+			(at 58.42 72.3901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Antenna_Chip"
+			(at 58.42 69.8501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "RF_Antenna:Johanson_2450AT18x100"
+			(at 59.69 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Ceramic chip antenna with pin for PCB trace"
+			(at 62.23 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "659f81d0-81fb-4489-8404-63f15e85375f")
+		)
+		(pin "2"
+			(uuid "7a908a36-5db9-4cec-bf7a-7b2414a58530")
+		)
+		(instances
+			(project ""
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 86.36 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2b8197b-b79a-4ed4-a50b-fa8a59192c5f")
+		(property "Reference" "#PWR04"
+			(at 205.74 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d527861b-aa2f-4805-a22b-a8b2f7e98235")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 273.05 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef3eb182-79e8-4c54-a5a0-57e712db1ae9")
+		(property "Reference" "J14"
+			(at 275.59 52.8203 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 275.59 55.3603 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 273.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 273.05 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9a702f8-eb95-4039-b566-3f61af9221ff")
+		)
+		(pin "2"
+			(uuid "4ebe15a4-b6f1-4851-aea6-7e25256a3a42")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 273.05 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2aa5a99-cd22-49c7-92e5-ec569a615ee1")
+		(property "Reference" "J16"
+			(at 275.59 82.0303 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 275.59 84.5703 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 273.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 273.05 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b049940-369e-47a7-a7ad-521e5a809261")
+		)
+		(pin "2"
+			(uuid "7d7756f6-c9b5-4b20-8d8e-849439507fd4")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 224.79 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f34ba5a2-52d1-4490-b36c-f4e4adbe40cd")
+		(property "Reference" "#PWR010"
+			(at 224.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "870e4545-98f7-495a-8e6b-88da82e9b394")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial_Small")
+		(at 157.48 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f42f0ace-1aee-45da-abf9-431d6f980c20")
+		(property "Reference" "J11"
+			(at 160.02 83.312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMA"
+			(at 160.02 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132134-10_Vertical"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 157.48 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b361b146-3282-4b3a-9ffd-7fc0ee0c6293")
+		)
+		(pin "2"
+			(uuid "214eb161-4265-4ce3-974b-f8591e5448ca")
+		)
+		(instances
+			(project "jlcpcb flex RF"
+				(path "/5587e22e-6bb4-40e8-b0f9-77c50aba05a4"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
