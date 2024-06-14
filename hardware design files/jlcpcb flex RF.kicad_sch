@@ -4,6 +4,11 @@
 	(generator_version "8.0")
 	(uuid "5587e22e-6bb4-40e8-b0f9-77c50aba05a4")
 	(paper "A4")
+	(title_block
+		(title "RF Charactarization")
+		(date "2024-06-13")
+		(rev "A")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial_Small"
 			(pin_numbers hide)
