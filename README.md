@@ -25,6 +25,9 @@ PCBs were designed using KICAD 7, and manufactured at JLCPCB. The PCBs had the s
 
 <img src=readme%20images/jlcpcb-flex-stackup.png height=320>
 
+Once the PCBs arrived, I hand assembled them, using a stencil and solder paste along side a hot plate set to a temperature of 300 degrees Celsius. The hand-placed SMA connectors may have less than ideal 
+connections.
+
 Within the PCB layout, the sections were split up into 8 lanes, with each lane having some small change between each of them. The following parameters were varied between each lane:
 - Trace thickness (2mil/3mil)
 - Load element type (50 Ohm Load/Chip Antenna)
